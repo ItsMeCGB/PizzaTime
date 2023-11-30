@@ -1,0 +1,48 @@
+﻿@page "/finance"
+@rendermode InteractiveServer
+
+<h3>Finance</h3>
+
+<label for="iR">Interest Rate</label>
+<input type="text" @bind="intRate" />
+
+<label for="numOfPayments">Number of Payments</label>
+<input type="text" @bind="numPays" />
+
+<label for="loanAmt">Loan Amount</label>
+<input type="text" @bind="loanAmt" />
+
+@if (AreInputValuesValid())
+    {
+        <p>Monthly Payment: @monthlyPayment.ToString("C")</p>
+    }
+else
+    {
+        <p>Please enter valid values to calculate the monthly payment.</p>
+    }
+
+<button @onclick="CalculateMonthlyPayment">Calculate</button>
+
+@code {
+    private double intRate;
+    private int numPays;
+    private double loanAmt;
+    private double monthlyPayment;
+
+    private void CalculateMonthlyPayment()
+    {
+    if (AreInputValuesValid())
+    {
+        monthlyPayment = Financial.Pmt(intRate / 100 / 12, numPays, -loanAmt);
+    }
+    else
+    {
+        monthlyPayment = 0.0;
+    }
+    }
+
+    private bool AreInputValuesValid()
+    {
+    return numPays > 0;
+    }
+}
