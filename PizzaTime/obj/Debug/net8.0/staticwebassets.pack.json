@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaTime.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PizzaTime.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PizzaTime.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PizzaTime.props",
+      "PackagePath": "build\\PizzaTime.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PizzaTime.props",
+      "PackagePath": "buildMultiTargeting\\PizzaTime.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PizzaTime.props",
+      "PackagePath": "buildTransitive\\PizzaTime.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
