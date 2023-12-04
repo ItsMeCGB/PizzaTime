@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rMLk6bQHPK6f6opegwQhlayZJ1B/Sn0Qkp3BXrSdCBs=",
+  "Hash": "OMc0OJq9EDga3e7ljNtupLedKLA4ymov2VHju8x3RnI=",
   "Source": "PizzaTime",
   "BasePath": "_content/PizzaTime",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PizzaTime\\wwwroot",
       "Source": "PizzaTime",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\",
       "BasePath": "_content/PizzaTime",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PizzaTime.styles.css",
+      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PizzaTime.styles.css",
       "SourceId": "PizzaTime",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PizzaTime",
       "RelativePath": "PizzaTime.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PizzaTime.styles.css"
+      "OriginalItemSpec": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PizzaTime.styles.css"
     },
     {
-      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaTime.bundle.scp.css",
+      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaTime.bundle.scp.css",
       "SourceId": "PizzaTime",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PizzaTime",
       "RelativePath": "PizzaTime.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaTime.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PizzaTime.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\app.css",
+      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\app.css",
       "SourceId": "PizzaTime",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\",
       "BasePath": "_content/PizzaTime",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PizzaTime",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\",
       "BasePath": "_content/PizzaTime",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PizzaTime",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\",
       "BasePath": "_content/PizzaTime",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\favicon.png",
+      "Identity": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\favicon.png",
       "SourceId": "PizzaTime",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\wwwroot\\",
+      "ContentRoot": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\wwwroot\\",
       "BasePath": "_content/PizzaTime",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

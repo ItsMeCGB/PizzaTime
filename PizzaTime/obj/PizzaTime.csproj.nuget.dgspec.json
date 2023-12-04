@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\PizzaTime.csproj": {}
+    "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\PizzaTime.csproj": {}
   },
   "projects": {
-    "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\PizzaTime.csproj": {
+    "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\PizzaTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\PizzaTime.csproj",
+        "projectUniqueName": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\PizzaTime.csproj",
         "projectName": "PizzaTime",
-        "projectPath": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\PizzaTime.csproj",
+        "projectPath": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\PizzaTime.csproj",
         "packagesPath": "C:\\Users\\Chase\\.nuget\\packages\\",
-        "outputPath": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\pizzatime\\obj\\",
+        "outputPath": "C:\\Advanced.net\\PairProgramming\\PizzaTime\\PizzaTime\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
