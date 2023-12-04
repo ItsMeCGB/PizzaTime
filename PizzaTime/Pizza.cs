@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using PizzaTime.Components.Pages;
+using System.Security.Cryptography.X509Certificates;
 
 namespace PizzaTime
 {
@@ -6,38 +7,86 @@ namespace PizzaTime
 	{
 		public Topping PizzaTopping { get; set; }
 
+		public Crust PizzaCrust { get; set; }
+
 		public Pizza()
 		{
 			PizzaTopping = new Topping();
+			PizzaCrust = new Crust();
 		}
 
-		public decimal GetFinalPrice()
+		public double GetToppingPrice()
 		{
-			return PizzaTopping.ToppingPrice();
+			double topPrice = PizzaTopping.ToppingPrice();
+			return topPrice;
+		}
+
+		public double GetCrustPrice()
+		{
+			double crustPrice = PizzaCrust.CrustPrice();
+			return crustPrice;
+
+		}
+
+		public String GetTotPrice()
+		{
+			double totPrice = GetToppingPrice() + GetCrustPrice();
+
+			return totPrice.ToString("F2");
 		}
 	}
 
+	public class Crust
+	{
+		public bool Thin { get; set; }
+		public bool Pan { get; set; }
+		public bool HandTossed { get; set; }
+
+		public double CrustPrice()
+		{
+			double runningTotal = 0;
+
+			if (Thin)
+			{
+				runningTotal = 5.99;
+			}
+			if (Pan)
+			{
+				runningTotal = 7.99;
+			}
+			if (HandTossed)
+			{
+				runningTotal = 6.99;
+			}
+			return runningTotal; 
+		}
+	}
 	public class Topping
 	{
-		public bool Bacon { get; set; }
-		public bool MoreBacon { get; set; }
-		public bool ExtraExtraBacon { get; set; }
+		public bool Pepperoni { get; set; }
+		public bool ExtraCheese { get; set; }
+		public bool Ham { get; set; }
+		public bool Chicken { get; set; }
 
-		public decimal ToppingPrice()
+		public double ToppingPrice()
 		{
-			decimal runningTotal = 0;
+			double runningTotal = 0;
 
-			if (Bacon)
+			if (Pepperoni)
 			{
-				runningTotal += 30;
+				runningTotal += 1.50;
 			}
-			if (MoreBacon)
+			if (ExtraCheese)
 			{
-				runningTotal += 50;
+				runningTotal += 2.00;
 			}
-			if (ExtraExtraBacon)
+			if (Ham)
 			{
-				runningTotal += 60;
+				runningTotal += 1.79;
+			}
+			if (Chicken)
+			{
+				runningTotal += 3;
 			}
 			return runningTotal;
 

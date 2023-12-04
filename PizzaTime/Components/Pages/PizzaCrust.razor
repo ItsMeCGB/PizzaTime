@@ -2,7 +2,44 @@
 @rendermode InteractiveServer
 
 <h3>PizzaCrust</h3>
+<p>Select only 1 option because I can't figure out how to use radio buttons >:[</p>
+
+<label>
+	<input type="checkbox" @bind='pizza.PizzaCrust.Thin' />
+	Thin Crust
+</label>
+
+<label>
+	<input type="checkbox" @bind='pizza.PizzaCrust.Pan' />
+	Pan Crust
+</label>
+
+<label>
+	<input type="checkbox" @bind='pizza.PizzaCrust.HandTossed' />
+	Hand Tossed
+</label>
+
+<p>Crust Selection Checker</p>
+
+	@if (pizza.PizzaCrust.Thin)
+	{
+		<p>Thin</p>
+	}
+	@if (pizza.PizzaCrust.Pan)
+	{
+		<p>Pan</p>
+	}
+	@if (pizza.PizzaCrust.HandTossed)
+	{
+		<p>Hand Tossed</p>
+	}
+	
+
+
+<p>Crust Price: $@pizza.GetCrustPrice()</p>
+
+
 
 @code {
-
+	Pizza pizza = new Pizza();
 }
