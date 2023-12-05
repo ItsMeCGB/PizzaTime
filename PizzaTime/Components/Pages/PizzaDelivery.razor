@@ -3,14 +3,53 @@
 
 <h3>PizzaDelivery</h3>
 
-<PizzaCrust></PizzaCrust>
-<PizzaTopping></PizzaTopping>
+<PizzaCrust pizza="pizza"/>
+<PizzaTopping pizza="pizza"/>
+
+<label>
+	Add a tip or else
+	<select @bind="pizza.TipPercentage">
+		<option value="0">No Tip</option>
+		<option value="12">12%</option>
+		<option value="15">15%</option>
+		<option value="18">18%</option>
+	</select>
+</label>
+
+<br>
+<br>
+
+<button @onclick="PlaceOrder">Place Order</button>
+
+<!--<button @onclick="CalculateTotalCost">Calculate Total Cost</button> -->
+
+<!-- <p>Total Price: $@pizza.GetTotPrice()</p> -->
+
+<p>Crust Price: $@string.Format("{0:F2}",pizza.GetCrustPrice())</p>
+
+<p>Topping Price: $@string.Format("{0:F2}", pizza.GetToppingPrice())</p>
+
+<p>Tip: $@string.Format("{0:F2}", pizza.CalculateTipAmount())</p>
+
+<p>Delivery Fee: $@string.Format("{0:F2}", deliveryFee)</p>
+
+<p>Total Price: $@string.Format("{0:F2}", totalCost)</p>
 
 
-<p>Total Price: $@pizza.GetTotPrice()</p>
 
 @code {
 	Pizza pizza = new Pizza();
+	private double totalCost;
+	private const double deliveryFee = 2.00;
 
+	private void PlaceOrder()
+	{
+		totalCost = pizza.GetTotalWithTip() + deliveryFee;
+	}
+/*		private void CalculateTotalCost()
+	{
+		totalCost = pizza.GetTotPrice() + deliveryFee;
+	}
+*/
 }
 

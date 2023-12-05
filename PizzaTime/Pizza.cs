@@ -15,6 +15,18 @@ namespace PizzaTime
 			PizzaCrust = new Crust();
 		}
 
+		public double TipPercentage { get; set; } = 0;
+
+		public double CalculateTipAmount()
+		{
+			return GetTotPrice() * (TipPercentage / 100);
+		}
+
+		public double GetTotalWithTip()
+		{
+			return GetTotPrice() + CalculateTipAmount();
+		}
+
 		public double GetToppingPrice()
 		{
 			double topPrice = PizzaTopping.ToppingPrice();
@@ -28,11 +40,11 @@ namespace PizzaTime
 
 		}
 
-		public String GetTotPrice()
+		public double GetTotPrice()
 		{
 			double totPrice = GetToppingPrice() + GetCrustPrice();
 
-			return totPrice.ToString("F2");
+			return totPrice;
 		}
 	}
 
@@ -91,6 +103,7 @@ namespace PizzaTime
 			return runningTotal;
 
 		}
+
 	}
 }
 
